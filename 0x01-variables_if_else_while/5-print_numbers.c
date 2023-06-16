@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
- * main -Entry point
- * Description: 'print numbers of base 10'
- * Result: Always 0
+ * main - Prints numbers from 0 to 9.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int n;
 
-	for(n = 0; n <= 9; n++)
+	for (n = 0; n <= 9; n++)
 	{
 		printf("%d", n);
 	}
