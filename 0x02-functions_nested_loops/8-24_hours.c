@@ -6,8 +6,6 @@
 void jack_bauer(void)
 {
 	int i, j;
-
-
 	i = 0;
 
 
@@ -24,6 +22,6 @@ void jack_bauer(void)
 			_putchar('\n');
 			j++;
 		}
-		i++;
-	} 
+		i++; 
+	}
 }
